@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int n,a[100],p=0,ne=0,z=0;scanf("%d",&n);for(int i=0;i<n;i++){scanf("%d",&a[i]);if(a[i]>0)p++;else if(a[i]<0)ne++;else z++;}printf("Positive=%d, Negative=%d, Zero=%d\n",p,ne,z);return 0;}
